@@ -7,4 +7,4 @@ def hello_t(array)
   end
 end
 
-hello_t(["Tim", "Tom", "Jim"]) {|name| name.start_with?("T") ? puts "Hi, #{name}" : nil }
+hello_t(["Tim", "Tom", "Jim"]) { |name| name.start_with?("T") ? puts "Hi, #{name}" : nil }
